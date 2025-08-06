@@ -11,7 +11,7 @@ type TeamMemberCardProps = {
 
 export default function TeamMemberCard({ member }: TeamMemberCardProps) {
   return (
-    <div className="bg-gray-800 p-6 rounded-xl text-center transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[#00F5D4]/20">
+    <div className="bg-gray-800 p-6 rounded-xl text-center transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(0,245,212,0.5)]">
       <img
         src={member.image_url}
         alt={member.name}
